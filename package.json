@@ -12,5 +12,9 @@
   "description": "",
   "dependencies": {
     "ansi-escapes": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/ansi-escapes": "^4.0.4",
+    "@types/node": "^22.10.1"
   }
 }
