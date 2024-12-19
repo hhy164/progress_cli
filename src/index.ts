@@ -2,6 +2,7 @@ import ansiEscapes from 'ansi-escapes';
 import { EOL } from 'os';
 
 const write = process.stdout.write.bind(process.stdout);
+
 export class ProgressBar {
   total: number = 0;
   value: number = 0;

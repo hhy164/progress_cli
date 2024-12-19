@@ -2,7 +2,6 @@ import { clearTimeout } from "timers";
 import { ProgressBar } from "./index.js";
 const bar = new ProgressBar();
 bar.start(200, 0);
-bar.start(200, 0);
 let value = 0;
 const timer = setInterval(function () {
     value++;
